@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="{ifisset($description)}{$description}{else}{$cadastro.description}{/if}"/>
+        <meta name="keywords" content="{ifisset($keywords)}{$keywords}{else}{$cadastro.keywords}{/if}"/>
+        <title>Rafarillo</title>
+        
+        <link rel="stylesheet" href="build/css/main.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <!--[if lte IE 8]> <link rel="stylesheet" type="text/css" href="ie8.css" /> <![endif]-->
+        <meta name="viewport" content="initial-scale=1">
+    </head>
+    
+    <body>
+        <div id="second_menu">
+            <div class="areamenu">
+                <img src="assets/img/new/logo_branco.png" class="imglogobranco">
+                <input class="busca" type="text" placeholder="Encontre seu Rafarillo">
+                <img src="assets/img/new/lupa_branco.png" class="imglupabranco">
+                <a href="{$end}identificacao" title="LOGIN">LOGIN</a>
+                <a href="{$end}identificacao" title="REGISTRAR">REGISTRAR</a>
+                <a href="{$end}meus_pedidos" title="MEUS PEDIDOS">MEUS PEDIDOS</a>
+                <div class="caixa">
+                    <a href="#">
+                        <img class="imgcarrinhobranco" src="assets/img/new/carrinho_branco.png">
+                        <span class="placeholder">R$ 1.195,00</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="header">
+            <div id="contenttop" class="clear">
+                <div class="top_menu top_menu_esquerda">
+                    <a href="{$end}identificacao" title="LOGIN">LOGIN</a>
+                    <a href="" title="REGISTRAR">REGISTRAR</a>
+                    <a href="{$end}meus_pedidos" title="MEUS PEDIDOS">MEUS PEDIDOS</a>
+                </div>
+                
+                <div class="top_menu top_menu_direita">
+                    <img src="assets/img/new/online.jpg">
+                </div>
+            </div>
+            
+            <div id="top" class="clear">
+                <div class="contact atendimento">
+                    <a href="index.php"><img src="assets/img/new/logo.png"></a>
+                </div>
+
+                <div class="searchbox">
+                    <input type="text" placeholder="Encontre seu Rafarillo" class="busca">
+                    <img src="assets/img/new/lupa.png" style="margin: -8px 15px;">
+                </div>
+
+                <div class="minha_caixa">
+                    <div class="caixa">
+                        <a href="">
+                            <img src="assets/img/new/carrinho.png" style="float:left;">
+                            <span class="label">MINHA CESTA (3 ITENS)</span>
+                            <span class="placeholder">R$ 1.195,00</span>
+                        </a>
+                    </div> 
+                </div>   
+            </div>
+
+            <div id="ocasiao">
+                <p>
+                    <a href="#">TRABALHO<br><img src="assets/img/new/ocasiao1.jpg"></a>
+                </p>
+                <p>
+                    <a href="#">CASAMENTO<br><img src="assets/img/new/ocasiao2.jpg"></a>
+                </p>
+                <p>
+                    <a href="#">BALADAS<br><img src="assets/img/new/ocasiao3.jpg"></a>
+                </p>
+                <p>
+                    <a href="#">FESTAS<br><img src="assets/img/new/ocasiao4.jpg"></a>
+                </p>
+                <p>
+                    <a href="#">EVENTOS<br><img src="assets/img/new/ocasiao5.jpg"></a>
+                </p>
+                <p>
+                    <a href="#">CASUAL<br><img src="assets/img/new/ocasiao6.jpg"></a>
+                </p>
+            </div>
+        </div>
+
+        <div id="menu" class="clear">
+            <div style="width: 1270px; height: 49px; margin: 0px auto;">
+                <nav>
+                    <ul>
+                        <li><a href="#">Sapatos</a></li>
+                        <li><a href="#">Sapatênis</a></li>
+                        <li><a href="#">Sandálias</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Kits</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Vale Presente</a></li>
+                    </ul>
+                </nav>
+                <div class="search"> 
+                    Veja nossas sugestões <img src="assets/img/new/seta_baixo_branco.png" style="margin: -2px 10px">
+                </div>
+            </div>
+        </div>
+
+        <nav id="navigation" role="navigation">
+            <ul>
+              <li><a href="#">Sapatos</a></li>
+              <li><a href="#">Sapatênis</a></li>
+              <li><a href="#">Sandálias</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Kits</a></li>
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="#">Vale Presentes</a></li>
+              
+            </ul>
+        </nav>
+
+        <script type="text/javascript" src="js/contato.js"></script>
+        <div class="clear" style="margin-top:49px;"></div>
+        <div id="main1" class="clear">
+            <div id="lista" class="clear" style="">
+                <img src="assets/img/new/stripe_very_big.png" width="100%">
+                <div id="layers" class="aprovado">
+                    <div>
+                        CARRINHO
+                    </div>
+                    <div>
+                        IDENTIFICAÇÃO
+                    </div>
+                    <div>
+                        PAGAMENTO
+                    </div>
+                    <div id="selected">
+                        CONFIRMAÇÃO
+                    </div>
+                </div>
+                <div style="font-family:'latobold'; font-size:10px; color:#666; box-sizing: border-box; padding: 14px; margin-top:20px; text-align:center;">
+                    <img src="assets/img/new/confirmada.png">
+                    <p style="font-family:'latobold'; color:#95AC35; font-size:44px; margin-top:10px;">COMPRA APROVADA</p>
+                    <p style="font-family:'latoregular'; color:#333; font-size:15px; margin-top:10px;">Parabéns. Sua compra foi aprovada. Você receberá em breve um email com a confirmação.<br><br>O prazo de entrega do seu pedido é: 05/06/2013</p>
+                    <p style="margin-top:20px;">
+                        <img class="approve" src="assets/img/new/ebit_banner.jpg">
+                    </p>
+                    <p style="margin-top:20px;">
+                        <a href="{$end}" style="background:#95AC35; width:225px; height:45px; border:0; color:#fff; font-family:'latobold'; font-size:14px; padding: 10px;">CONTINUAR COMPRANDO</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- INÍCIO DO FOOTER -->
+    <div id="footer">
+            <div class="barra-footer">
+                <span style="font-family:latolight; font-size:28px;">
+                    Tire suas dúvidas!
+                </span>
+                <img src="assets/img/new/telefone.png" style="margin:-5px 20px;">
+                <span style="font-family:latoregular; font-size:20px;">(16) 2103-0347</span>
+                <img src="assets/img/new/foneouvido.png" style="margin:-5px 20px;">
+                <span style="font-family:latoregular; font-size:20px;">Atendimento via CHAT</span>
+                <img src="assets/img/new/arroba.png" style="margin:-5px 20px;">
+                <span style="font-family:latoregular; font-size:20px;">Fale Conosco</span>
+            </div>
+
+            <div class="footer">
+                <div class="align clear">
+                    <div class="first-line clear">
+                        <div class="footer-columns">
+                            <div class="">
+                                <div class="footer_middle footer_middle1">
+                                    <h1>INSTITUCIONAL</h1>
+                                    <p><a href="#">&raquo;&nbsp; Quem Somos</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Seguranca</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Politica de Privacidade</a></p>            
+                                </div>
+
+                                <div class="footer_middle footer_middle2">
+                                    <h1>DÚVIDAS</h1>
+                                    <p><a href="#">&raquo;&nbsp; Meus Pedidos</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Como Comprar</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Troca e Devolução</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Formas de Pagamento</a></p>
+                                </div> 
+
+                                <div class="footer_middle footer_middle3">
+                                    <h1>SERVICOS</h1>
+                                    <p><a href="#">&raquo;&nbsp; Central de Atendimento</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Fale Conosco</a></p>
+                                    <p><a href="#">&raquo;&nbsp; Codigo de defesa do Consumidor</a></p>
+                                </div>           
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="footer_middle footer_middle4">
+                                <h1>PAGAMENTO</h1>
+                                <img src="assets/img/new/pagamento.png" />
+                            </div>
+                            <div class="footer_middle footer_middle4">
+                                <h1>SEGURANÇA</h1>
+                                <img src="assets/img/new/seguranca.png" />
+                            </div>
+                            <div class="footer_middle footer_middle4">
+                                <img src="assets/img/new/ebit.png" />
+                            </div>
+                            <div class="footer_middle">
+                                <h1>REDES SOCIAIS</h1>
+                                <a href="" title="Facebook" class="facebook"><img src="assets/img/new/facebook.png" /></a>
+                                <a href="" title="Twitter" class="twitter"><img src="assets/img/new/twitter.png" /></a>
+                                <a href="" title="INSTAGRAM" class="instagram"><img src="assets/img/new/instagran.png" /></a>
+                                <a href="" title="Youtube" class="youtube"><img src="assets/img/new/youtube.png" /></a>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div style="text-align:center; font-family:lato; font-size:12px; color:#666; margin: 15px 30px;">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br><br><br>
+                        <img src="assets/img/new/sapatoe.png" /><br><br>
+                        © 2014 - Direitos Reservados
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="build/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="build/js/scripts.js"></script>
+        <script type="text/javascript" src="build/js/jquery.jcarousel.min.js"></script>
+        
+        <!-- FlexSlider -->
+        <script type="text/javascript" src="build/js/jquery.flexslider.js"></script>
+        <script type="text/javascript"> 
+            $(window).load(function(){
+                /*$('.flexslider').flexslider({
+                    animation: "fade",
+                    start: function(slider){
+                        $('body').removeClass('loading');
+                    }
+                });*/
+
+                $('.item').mouseover(function(){
+                    $(this).find('.sapato_hover').css('display', 'block');
+                });
+
+                $('.item').mouseout(function(){
+                    $(this).find('.sapato_hover').css('display', 'none');
+                });
+
+                $('.search').click(function(){
+                    $('#ocasiao').toggle();    
+                });
+
+                $(window).scroll(function ()
+                {
+                    if($(window).scrollTop() < 200)
+                    {
+                        $('#second_menu').slideUp('fast');
+                    }
+                    else
+                    {
+                        $('#second_menu').slideDown('fast');
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
+

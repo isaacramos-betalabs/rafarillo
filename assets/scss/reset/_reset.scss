@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+html, body, h1, h2, h3, p, a, img,
+h4, h5, h6,
+li, ul, ol,
+header, main, article, footer, aside, nav,
+table, thead, tbody, tfoot, th, tr, td,
+span, figure, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+label {
+	display: block;
+}
+
+p, a, h1, h2, h3, h4, h5, h5, span, button, label, input {
+  text-rendering: optimizeSpeed;
+  font-family: 'Lato';
+}
